@@ -1,0 +1,11 @@
+resource_group_name = "my-rg01"
+location = "eastus"
+public_network_access_enabled = "Disabled"
+tags     = "${local.tags}"
+MSSQLServer = "mssqlserver"
+SQL_Database = "sqldbb"
+Log_Analytics_Workspace = "sqldbla"
+virtual_network_name = "vnetprod019"
+subnet_id = "subnet019"
+route_table_id = "route1"
+Cosmos_db = 
